@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm install)",
+      "Bash(php artisan:*)",
+      "Bash(dir:*)",
+      "Bash(cmd /c:*)",
+      "Bash(where php)",
+      "Bash(D:laragonbinphpphp-8.3.13-Win32-vs16-x64php.exe artisan serve)",
+      "Bash(\"D:\\laragon\\bin\\php\\php-8.3.13-Win32-vs16-x64\\php.exe\" artisan serve)",
+      "Bash(powershell:*)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan make:migration create_shipment_documents_table)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan make:controller DocumentController)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --path=database/migrations/2025_10_05_135634_create_shipment_documents_table.php)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan storage:link)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan serve)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate:status)",
+      "Bash(del \"D:\\laragon\\www\\qisc\\logistics-crm\\database\\migrations\\2025_09_29_002711_create_branches_table.php\")",
+      "Bash(del \"D:\\laragon\\www\\qisc\\logistics-crm\\database\\migrations\\2025_09_29_002757_create_roles_table.php\")",
+      "Bash(del \"D:\\laragon\\www\\qisc\\logistics-crm\\database\\migrations\\2025_09_29_014451_create_users_table.php\")",
+      "Bash(del \"D:\\laragon\\www\\qisc\\logistics-crm\\database\\migrations\\2025_09_29_002758_add_branch_and_role_to_users_table.php\")",
+      "Bash(rm:*)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan db:show --counts)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --pretend)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan tinker --execute=\"Schema::getColumnListing(''customers'')\")",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan db:table customers)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate:status --pending)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate:*)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --fake --path=database/migrations/2025_09_29_002800_create_shipments_table.php)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --fake --path=database/migrations/2025_09_29_002801_create_invoices_table.php)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --fake --path=database/migrations/2025_09_29_002802_create_payments_table.php)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan migrate --help)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan --version)",
+      "Bash(\"D:/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" artisan tinker:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
